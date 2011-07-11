@@ -3,19 +3,19 @@ SET PALETTE white;
 RATSNEST
 DISPLAY None 
 DISPLAY Dimension Bottom Pads Vias
-EXPORT IMAGE b_trace.png MONOCHROME 600;
+EXPORT IMAGE xtrace_b.png MONOCHROME 600;
 DISPLAY None 
 DISPLAY Dimension Top Pads Vias
-EXPORT IMAGE t_trace.png MONOCHROME 600;
+EXPORT IMAGE xtrace_t.png MONOCHROME 600;
 DISPLAY None
-DISPLAY Dimension tPlace 
-EXPORT IMAGE t_place.png MONOCHROME 600;
-DISPLAY None
-DISPLAY Dimension _bsilk bPlace bNames bDocu Vias Drills
-EXPORT IMAGE b_drills.png MONOCHROME 600;
+DISPLAY Dimension Vias Pads Drills
+EXPORT IMAGE xdrill_vias_holes.png MONOCHROME 600;
 DISPLAY None
 DISPLAY Dimension tPlace Dimension
-EXPORT IMAGE t_silk.png MONOCHROME 600;
+EXPORT IMAGE xsilk_t.png MONOCHROME 600;
+DISPLAY None
+DISPLAY Dimension bPlace Dimension
+EXPORT IMAGE xsilk_b.png MONOCHROME 600;
 DISPLAY None
 SET PALETTE black;
 DISPLAY Top Bottom Pads Vias Unrouted Dimension tPlace bPlace _tSilk _bSilk tNames bNames tRestrict bRestrict tOrigins bOrigins Holes tDocu
