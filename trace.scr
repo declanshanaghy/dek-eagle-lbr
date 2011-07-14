@@ -8,8 +8,14 @@ DISPLAY None
 DISPLAY Dimension Top Pads Vias
 EXPORT IMAGE xtrace_t.png MONOCHROME 600;
 DISPLAY None
+DISPLAY Dimension Pads
+EXPORT IMAGE xpads.png MONOCHROME 600;
+DISPLAY None
 DISPLAY Dimension Vias Pads Drills
 EXPORT IMAGE xdrill_vias_holes.png MONOCHROME 600;
+DISPLAY None
+DISPLAY Dimension Vias
+EXPORT IMAGE xdrill_vias_only.png MONOCHROME 600;
 DISPLAY None
 DISPLAY Dimension tPlace Dimension
 EXPORT IMAGE xsilk_t.png MONOCHROME 600;
