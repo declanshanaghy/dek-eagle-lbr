@@ -8,20 +8,29 @@ DISPLAY None
 DISPLAY Dimension Top Pads Vias
 EXPORT IMAGE xtrace_t.png MONOCHROME 600;
 DISPLAY None
-DISPLAY Dimension Pads
-EXPORT IMAGE xpads.png MONOCHROME 600;
+DISPLAY Dimension tStop
+EXPORT IMAGE xpads_t.png MONOCHROME 600;
+DISPLAY None
+DISPLAY Dimension bStop
+EXPORT IMAGE xpads_b.png MONOCHROME 600;
 DISPLAY None
 DISPLAY Dimension Vias Pads Drills
 EXPORT IMAGE xdrill_vias_holes.png MONOCHROME 600;
 DISPLAY None
-DISPLAY Dimension Vias
+DISPLAY Dimension tPlace Vias
 EXPORT IMAGE xdrill_vias_only.png MONOCHROME 600;
 DISPLAY None
-DISPLAY Dimension tPlace Dimension
+DISPLAY Dimension tPlace
 EXPORT IMAGE xsilk_t.png MONOCHROME 600;
 DISPLAY None
-DISPLAY Dimension bPlace Dimension
+DISPLAY Dimension bPlace
 EXPORT IMAGE xsilk_b.png MONOCHROME 600;
+DISPLAY None
+DISPLAY Dimension tPlace tValues 
+EXPORT IMAGE xplace_t.png MONOCHROME 600;
+DISPLAY None
+DISPLAY Dimension bPlace bValues 
+EXPORT IMAGE xplace_b.png MONOCHROME 600;
 DISPLAY None
 SET PALETTE black;
 DISPLAY Top Bottom Pads Vias Unrouted Dimension tPlace bPlace _tSilk _bSilk tNames bNames tRestrict bRestrict tOrigins bOrigins Holes tDocu
